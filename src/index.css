@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    background-color: whitesmoke;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.logo{
+  width: 350px;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.card {
+  border-radius: 10px;
+  width: 400px;
+  height: auto;
+  background-color: white;
+  }
+  
+  /* Add rounded corners to the top left and the top right corner of the image */
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+
+.whole{
+  flex-direction: row;
+  margin-top: 150px;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+.left{
+  align-items:center;
+  margin-top: 0px;
+}
+p{
+  margin-left: 35px;
+  font-size: 30px;
+  margin-top: 0px;
+}
+#EmailOrNumber{
+  height: 50px;
+  border-style: solid;
+  border-radius: 5px;
+}
+#password{
+  height: 50px;
+  border-style: solid;
+  border-radius: 5px;
+
+}
+.submit{
+  height: 50px;
+}
+hr{
+  width: 310px;
+  height: 0px;
+  color: beige;
+}
+.forgot{
+  text-align: center;
+  text-decoration: none;
+  color: blue;
+}
+#new{
+  height: 50px;
+  width: fit-content;
+  background-color: #39e75f;
+  font-weight: bolder;
+  color: white;
+  align-self: center;
+  font-size: large;
+  border-style: solid;
+  border: 1px;
+  border-radius: 8px;
+}
+.submit{
+  background-color: #1877f2;
+  border-style: none;
+  color: white;
+  font-size: larger;
+  font-weight: bolder;
+  border-radius: 8px;
+}
+#EmailOrNumber{
+    font-size: large;
+    opacity: 0.5;
+}
+#password{
+  font-size: large;
+  opacity: 0.5;
+}
